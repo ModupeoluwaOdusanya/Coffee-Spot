@@ -283,10 +283,7 @@ Header
 
 } 
 
-/*.banner-btn:hover{
-     border: 0.066rem solid var(--clr-primary-light) ;
-}
-*/
+
 
 .page-divider{
     background: linear-gradient(to left, var(--clr-yellow), var(--clr-white),var(--clr-primary-light) ) ;
@@ -439,10 +436,7 @@ text-align: center;
     
 }
 
-/* .product-img:hover{
-    transform: scale(1.08);
-    transition: var(--transition) ;
-} */
+
 
 .product-price{
     color: var(--clr-yellow);
@@ -476,18 +470,14 @@ Services
     border-radius: 5px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
     transition: var(--transition);
-    flex: 1 ; 
+    
 }
 .service-card:hover{
     transform: scale(1.05);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
    
 }
-/* @media screen and (min-wiidth:768px) {
-    .services-title{
 
-    }
-} */
 .services-container{
     text-align: center;
     
@@ -505,7 +495,10 @@ Services
     flex-wrap: wrap;
     }
 }
-
+.service-card{
+    min-width: 10rem;
+    flex:1;
+}
 
 span.service-icon{
     font-size: 2rem;
